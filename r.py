@@ -5,7 +5,14 @@
 
 
 import random
-r = random.randint(1, 100)
+x = input('請決定範圍開始值：')
+y = input('請決定完結值：')
+x = int(x)
+y = int(y)
+
+
+
+r = random.randint(x, y)
 count = 0
 while True:
 	count += 1
